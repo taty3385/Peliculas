@@ -1,13 +1,15 @@
-import Header from './views/Header'
+import Header from "./views/Header";
 
-import './App.css'
+import "./App.css";
+import Home from "./views/Home";
 
 function App() {
-
-
   return (
- <Header/>
-  )
+    <>
+      <Header />
+      <Home />
+    </>
+  );
 }
 
-export default App
+export default App;
